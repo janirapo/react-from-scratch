@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "start": "webpack-dev-server --inline",
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",
