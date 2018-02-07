@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/app.iml" filepath="$PROJECT_DIR$/.idea/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../react-from-scratch/.idea/react-from-scratch.iml" filepath="$PROJECT_DIR$/../react-from-scratch/.idea/react-from-scratch.iml" />
     </modules>
   </component>
 </project>
