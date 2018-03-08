@@ -1,12 +1,11 @@
-import React, { Component } from "react";
-import { AppBar, Checkbox, IconButton } from "react-toolbox";
-import { Layout, NavDrawer, Panel, Sidebar } from "react-toolbox";
+import React, { Component } from 'react';
+import { AppBar, Checkbox, IconButton, Layout, NavDrawer, Panel, Sidebar } from 'react-toolbox';
 
 class App extends Component {
     state = {
         drawerActive: false,
         drawerPinned: false,
-        sidebarPinned: false
+        sidebarPinned: false,
     };
     toggleDrawerActive = () => {
         this.setState({ drawerActive: !this.state.drawerActive });
@@ -30,12 +29,8 @@ class App extends Component {
                     <p>Navigation, account switcher, etc. go here.</p>
                 </NavDrawer>
                 <Panel>
-                    <AppBar
-                        title="React Toolbox"
-                        leftIcon="menu"
-                        onLeftIconClick={this.toggleDrawerActive}
-                    />
-                    <div style={{ flex: 1, overflowY: "auto", padding: "1.8rem" }}>
+                    <AppBar title="React Toolbox" leftIcon="menu" onLeftIconClick={this.toggleDrawerActive} />
+                    <div style={{ flex: 1, overflowY: 'auto', padding: '1.8rem' }}>
                         <h1>Main Content</h1>
                         <p>Main content goes here.</p>
                         <Checkbox
